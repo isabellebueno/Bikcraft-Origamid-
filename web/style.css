@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    justify-content: center;
+    margin: 0px;
+    gap: 60px;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    
+
+}
+
+.botao {
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
